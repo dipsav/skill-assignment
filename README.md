@@ -28,7 +28,7 @@ cost components (independent re-estimate), `*_ff` fields for the fully cross-tra
 `preemptive`, `min_coverage`, `pso_params`, `seed`, `designs_simulated`, `evaluations_requested`, `log` (search
 statistics), `unpolished_assignment` / `unpolished_total_cost` (before the local search), `utilizationRatesAverage`.
 
-Large raw records are deposited separately (data repository, DOI: [[to be added]]), not in this repository:
+Large raw records are deposited separately on Mendeley Data (Sleptchenko, 2026, "Resilience Simulation Records for Cross-Trained Repair Shops with Spare-Part Inventories and Repair Priorities", V1, doi:10.17632/m3v827bj3x.1), not in this repository:
 `replications/` (per-replication costs of B1, B23, E3, P1 and the per-replication transient summaries
 `B4_transient.csv.gz`, `B5_transient.csv.gz`, 225 MB) and `surge_results_B4_<set>.tar`, `surge_results_B5_<set>.tar`
 (backorder trajectories of every surge and absence replication, one `json.gz` per case, rule, multiplier and length,
