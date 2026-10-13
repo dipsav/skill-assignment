@@ -1,0 +1,12 @@
+# created by code/setup.sh (links and build products)
+code/largeCases
+code/sets23_exact.json
+code/sets23_instances.csv
+code/PSO_results_*
+code/GA_results_*
+code/VNS_results_*
+code/experiments/simulation_codes
+code/experiments/csim
+code/fast_simulator/csim/libsimfast.so
+code/revision/
+__pycache__/
