@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simulation-codes"
+version = "2.0"
+description = "Compiled discrete-event simulator of a repair shop with cross-trained technicians, spare-part inventories and repair-priority rules (CAIE-D-26-05208)"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2", "scipy>=1.14", "numba>=0.60", "xxhash"]
+
+[tool.setuptools]
+packages = ["simulation_codes"]

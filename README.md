@@ -1,7 +1,7 @@
 # Experimental results: Simulation-based Optimization of Joint Skill Assignment and Inventory Planning for Resilient Maintenance Systems
 
 Results of the numerical experiments of manuscript CAIE-D-26-05208 (revision R2.2, October 2026). The code that
-produced them is in the companion code repository (`python_simulator`, `fast_simulator`, `experiments`); every file
+produced them is in `code/` (`python_simulator`, `fast_simulator`, `experiments`; see `code/README.md`); every file
 here can be regenerated with the scripts named below, with the seeds recorded in the files.
 
 | Folder | Content | Paper |
