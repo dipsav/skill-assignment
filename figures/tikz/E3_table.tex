@@ -1,0 +1,24 @@
+\begin{table}[!htb]
+\centering
+\caption{Sensitivity of the final designs to the failure and repair-time distributions, 128 instances, 35 replications per cell with common random numbers. CV: coefficient of variation of the interarrival time of failures (CV$_a$) and of the repair time (CV$_s$); the published model has both equal to one. Change: median change of the total cost of the design relative to the exponential case, with the base-stock levels fixed and re-optimized for the distribution; stable: share of instances stable in simulation; saving: cost of the design optimized for the $\mu$ rule relative to the design optimized for FCFS, each under its own rule, mean and median over the instances stable under both, and the number of instances in which the $\mu$ design is cheaper.}
+\label{tab:distribution_sensitivity}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lcc rr rr rr rrr@{}}
+\toprule
+& & & \multicolumn{2}{c}{Design for FCFS} & \multicolumn{2}{c}{Design for $\mu$} & \multicolumn{2}{c}{Stable (\%)} & \multicolumn{3}{c}{Saving of the $\mu$ design (\%)} \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-12}
+Distributions & CV$_a$ & CV$_s$ & fixed & re-opt. & fixed & re-opt. & FCFS & $\mu$ & mean & median & cheaper \\
+\midrule
+Exponential (the model) & 1 & 1 & +0.0 & +0.0 & +0.0 & +0.0 & 100.0 & 100.0 & 7.7 & 6.7 & 123 of 128 \\
+Repair Erlang-4 & 1 & 0.5 & -1.9 & -2.8 & -0.8 & -1.2 & 100.0 & 100.0 & 5.9 & 4.8 & 122 of 128 \\
+Repair Erlang-2 & 1 & 0.71 & -1.5 & -1.8 & -0.6 & -0.8 & 100.0 & 100.0 & 6.5 & 5.3 & 123 of 128 \\
+Repair lognormal & 1 & 1.5 & +9.8 & +6.5 & +3.5 & +2.3 & 100.0 & 100.0 & 10.8 & 9.5 & 125 of 128 \\
+Repair lognormal & 1 & 2 & +29.6 & +16.0 & +11.2 & +5.6 & 100.0 & 100.0 & 14.3 & 11.8 & 126 of 128 \\
+Failures Erlang-4 & 0.5 & 1 & -2.7 & -4.4 & -1.7 & -2.7 & 100.0 & 100.0 & 5.8 & 4.8 & 120 of 128 \\
+Failures hyperexponential & 2 & 1 & +21.5 & +10.0 & +11.6 & +4.9 & 100.0 & 100.0 & 12.3 & 10.0 & 126 of 128 \\
+Both Erlang-4 & 0.5 & 0.5 & -2.9 & -6.7 & -1.8 & -4.3 & 100.0 & 100.0 & 4.2 & 2.6 & 115 of 128 \\
+Failures H$_2$, repair lognormal & 2 & 2 & +70.5 & +25.2 & +34.1 & +10.7 & 100.0 & 100.0 & 17.4 & 13.7 & 127 of 128 \\
+\bottomrule
+\end{tabular}
+\end{table}

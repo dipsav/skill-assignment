@@ -1,0 +1,17 @@
+\begin{table}[!htb]
+\centering
+\caption{Benchmark of the search methods at an equal budget of 2{,}500 distinct simulated skill matrices: 32 instances, five seeds each; costs of the final designs from 35 independent replications; gap to the cheapest of the methods on the same instance and seed.}
+\label{tab:benchmark}
+\small
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Method & \shortstack{Mean gap\\(\%)} & \shortstack{Median gap\\(\%)} & \shortstack{Best in\\(of 160 runs)} & \shortstack{Skills\\(mean)} & \shortstack{Minutes\\per run} \\
+\midrule
+VNS \citep{abdelwanis2024simulation} & 1.80 & 0.00 & 91 & 32.0 & 46 \\
+BPSO, proposed (tuned) & 2.78 & 0.60 & 46 & 33.6 & 47 \\
+GA \citep{sleptchenko2019cross-training-} & 4.68 & 1.61 & 16 & 36.0 & 41 \\
+BPSO, original \citep{el-maleh2013binary-particle} (tuned) & 5.68 & 2.09 & 7 & 38.5 & 48 \\
+\hl{[[BPSO with local search & x.xx & x.xx & n & xx.x & xx \\]]}
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,8 @@
+128 designs x 1 multiplier(s) x 2 duration(s) x 1 rules = 256 tasks, 35 replications each, 20 workers -> ../surge_results_B5/mu_cov2_designs
+[50/256] case   31 mu   gamma 1: done (2.6 s)
+[100/256] case   52 mu   gamma 1: done (3.1 s)
+[150/256] case   78 mu   gamma 1: done (2.8 s)
+[200/256] case   97 mu   gamma 1: done (5.4 s)
+[250/256] case  127 mu   gamma 1: done (2.1 s)
+[256/256] case  128 mu   gamma 1: done (3.8 s)
+finished in 0.9 min

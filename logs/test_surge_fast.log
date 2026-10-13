@@ -1,0 +1,16 @@
+PASS  1. multiplier 1 vs simulation_fast, case 1, FCFS, warm-up 0: max |pmf diff| 1.1e-16, max |util diff| 1.1e-16
+PASS  1. multiplier 1 vs simulation_fast, case 1, FCFS, warm-up 10000: max |pmf diff| 1.1e-16
+PASS  1. multiplier 1 vs simulation_fast, case 1, mu rule, warm-up 0: max |pmf diff| 2.2e-16, max |util diff| 0.0e+00
+PASS  1. multiplier 1 vs simulation_fast, case 1, mu rule, warm-up 10000: max |pmf diff| 2.2e-16
+PASS  1. multiplier 1 vs simulation_fast, case 128, FCFS, warm-up 0: max |pmf diff| 4.4e-16, max |util diff| 4.4e-16
+PASS  1. multiplier 1 vs simulation_fast, case 128, FCFS, warm-up 10000: max |pmf diff| 5.6e-16
+PASS  1. multiplier 1 vs simulation_fast, case 128, mu rule, warm-up 0: max |pmf diff| 8.7e-16, max |util diff| 2.2e-16
+PASS  1. multiplier 1 vs simulation_fast, case 128, mu rule, warm-up 10000: max |pmf diff| 1.0e-15
+PASS  2. M(t)/M/inf transient, compiled engine: 35 reps; per-bin per-SKU coverage of the exact mean 95.7% (nominal 95%); baseline 14.013 vs exact 14.000 (p = 0.67); surge 27.792 vs exact 27.906 (p = 0.25); recovery 14.030 vs exact 14.008 (p = 0.38)
+PASS  2. M(t)/M/inf transient, Python engine (118 s): 12 reps; per-bin per-SKU coverage of the exact mean 96.1% (nominal 95%); baseline 13.917 vs exact 14.000 (p = 0.12); surge 27.691 vs exact 27.906 (p = 0.33); recovery 14.018 vs exact 14.008 (p = 0.72)
+PASS  3. backorders: integrated vs from the distribution vs from the bins: max differences 4.3e-14, 2.8e-14; post-warm-up EBO 43.785; surge peak 485
+PASS  4. compiled vs Python engine, case 1, full cross-training, FCFS: baseline queue 1.471 vs 1.433 (p = 0.50); surge queue 69.429 vs 82.286 (p = 0.24); recovery queue 1.785 vs 1.760 (p = 0.85); surge peak 210.805 vs 240.100 (p = 0.25); baseline system 4.715 vs 4.680 (p = 0.58); recovered 100% vs 100%; time per replication 0.08 s vs 24.9 s
+INFO  4. compiled vs Python engine, case 1, PSO design, mu rule (rules differ): baseline queue 4.564 vs 4.534 (p = 0.85); surge queue 258.068 vs 270.798 (p = 0.03); recovery queue 44.348 vs 47.323 (p = 0.20); surge peak 509.475 vs 532.700 (p = 0.03); baseline system 7.809 vs 7.781 (p = 0.87); recovered 100% vs 100%; time per replication 0.09 s vs 26.1 s
+PASS  5. reproducibility: same seed, identical trajectories
+
+13/13 checks passed

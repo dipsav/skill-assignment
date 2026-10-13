@@ -1,0 +1,22 @@
+\begin{table}[!htb]
+\centering
+\caption{Designs and operational responses under a surge of all failure rates by $50\%$ for $10{,}000$ expected failures, 128 instances, 35 replications each: median peak number of backorders, median loss (extra backorder cost of the episode in multiples of the nominal cost of a period of the surge's length), median recovery time (expected failures after the surge) and share of instances recovered within the horizon.}
+\label{tab:surge_responses}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Design and operation & Peak & Loss & Recovery & Recovered \\
+\midrule
+Design for FCFS, FCFS & 1,212 & 39.4 & 8,583 & 99\% \\
+\quad switched to non-preemptive $\mu$ during the disruption & 292 & 18.5 & 12,361 & 98\% \\
+\quad switched to preemptive $\mu$ during the disruption & 326 & 28.0 & 15,587 & 98\% \\
+Design for FCFS, non-preemptive $\mu$ rule throughout & 299 & 19.5 & 17,169 & 79\% \\
+Design for $\mu$, $\mu$ rule & 217 & 11.0 & 10,686 & 98\% \\
+Design for $\mu$, every SKU covered twice & 144 & 6.7 & 9,923 & 98\% \\
+Design for non-preemptive $\mu$ & 278 & 12.8 & 12,891 & 95\% \\
+Full cross-training, FCFS & 588 & 14.4 & 3,894 & 100\% \\
+Full cross-training, $\mu$ rule & 38 & 0.7 & 1,904 & 100\% \\
+\bottomrule
+\end{tabular}
+\end{table}

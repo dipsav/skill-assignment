@@ -1,0 +1,11 @@
+128 designs, 896 scenarios to run (0 done), 20 workers -> tables/B23_mu_cov2_designs.csv
+[100/896] 0.1 min
+[200/896] 0.2 min
+[300/896] 0.4 min
+[400/896] 0.5 min
+[500/896] 0.6 min
+[600/896] 0.7 min
+[700/896] 0.8 min
+[800/896] 0.9 min
+[896/896] 1.0 min
+done: 896 scenarios; LP-feasible 94.8%; stable in simulation 94.5%

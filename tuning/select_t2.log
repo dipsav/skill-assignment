@@ -1,0 +1,46 @@
+
+== original: 54 settings, 1104 runs each; best by optimum found, then by gap at 25%
+ c1  c2  inertia_min  inertia_max  inertia_power  gap10  gap25  final  optimal  distinct  runs
+0.5 2.0         0.10          0.3            1.0 0.0111 0.0030 0.0003   0.9376     138.0  1105
+0.5 2.0         0.01          0.3            1.0 0.0110 0.0030 0.0002   0.9357     140.0  1105
+1.0 0.5         0.01          0.9            1.0 0.0109 0.0028 0.0002   0.9302     135.0  1103
+2.0 2.0         0.01          0.9            1.0 0.0095 0.0016 0.0006   0.8540      83.0  1103
+2.0 2.0         0.10          0.9            1.0 0.0095 0.0016 0.0006   0.8450      78.0  1103
+2.0 2.0         0.10          0.5            1.0 0.0096 0.0018 0.0005   0.8840      92.0  1103
+
+== proposed: 72 settings, 1104 runs each; best by optimum found, then by gap at 25%
+ c1  c2  inertia_min  inertia_max  inertia_power  gap10  gap25  final  optimal  distinct  runs
+1.0 1.0         0.01          1.0            1.0 0.0125 0.0047 0.0003   0.9311     147.0  1103
+1.0 2.0         0.01          1.0            1.0 0.0125 0.0048 0.0003   0.9275     147.0  1103
+1.0 3.0         0.01          1.0            1.0 0.0125 0.0048 0.0004   0.9257     147.0  1103
+2.0 4.0         0.10          2.0            1.0 0.0119 0.0034 0.0006   0.8592     101.0  1101
+2.0 3.0         0.10          2.0            1.0 0.0119 0.0035 0.0006   0.8547     101.0  1101
+2.0 1.0         0.10          2.0            1.0 0.0119 0.0035 0.0007   0.8556     101.0  1101
+
+== proposed_ext: 72 settings, 1103 runs each; best by optimum found, then by gap at 25%
+ c1  c2  inertia_min  inertia_max  inertia_power  gap10  gap25  final  optimal  distinct  runs
+1.0 3.0        0.001          1.0            1.0 0.0121 0.0049 0.0004   0.9275     147.0  1103
+2.0 3.0        0.100          1.0            2.0 0.0118 0.0041 0.0003   0.9266     137.0  1103
+1.0 3.0        0.010          1.0            1.0 0.0125 0.0048 0.0004   0.9257     147.0  1103
+2.0 3.0        0.001          8.0            1.0 0.0113 0.0028 0.0010   0.8002      78.0  1101
+2.0 3.0        0.100          8.0            1.0 0.0110 0.0028 0.0010   0.7984      77.0  1101
+2.0 3.0        0.010          8.0            1.0 0.0115 0.0029 0.0010   0.7984      78.0  1101
+
+== reset: 144 settings, 1104 runs each; best by optimum found, then by gap at 25%
+ c1  c2  inertia_min  inertia_max  inertia_power  gap10  gap25  final  optimal  distinct  runs
+2.0 1.0        0.100          1.0            2.0 0.0118 0.0041 0.0004   0.9319     137.0  1102
+2.0 3.0        0.100          1.0            4.0 0.0115 0.0040 0.0003   0.9313     143.0  1106
+2.0 3.0        0.001          1.0            4.0 0.0115 0.0040 0.0002   0.9303     146.0  1105
+2.0 1.0        0.001          8.0            1.0 0.0115 0.0028 0.0009   0.8202      78.0  1101
+2.0 1.0        0.010          8.0            1.0 0.0118 0.0028 0.0010   0.8165      78.0  1101
+2.0 1.0        0.100          8.0            1.0 0.0114 0.0029 0.0011   0.7909      76.0  1100
+
+8 T2 candidate settings -> tuning/t2_settings.json (plus the defaults pso = published, pso_orig = T1-best original)
+  pso_orig:original_optimal      {'c1': 0.5, 'c2': 2.0, 'inertia_min': 0.1, 'inertia_max': 0.3, 'inertia_power': 1.0, 'variant': 'original'}
+  pso_orig:original_gap25        {'c1': 2.0, 'c2': 2.0, 'inertia_min': 0.01, 'inertia_max': 0.9, 'inertia_power': 1.0, 'variant': 'original'}
+  pso:proposed_optimal           {'c1': 1.0, 'c2': 1.0, 'inertia_min': 0.01, 'inertia_max': 1.0, 'inertia_power': 1.0}
+  pso:proposed_gap25             {'c1': 2.0, 'c2': 4.0, 'inertia_min': 0.1, 'inertia_max': 2.0, 'inertia_power': 1.0}
+  pso:proposed_ext_optimal       {'c1': 1.0, 'c2': 3.0, 'inertia_min': 0.001, 'inertia_max': 1.0, 'inertia_power': 1.0}
+  pso:proposed_ext_gap25         {'c1': 2.0, 'c2': 3.0, 'inertia_min': 0.001, 'inertia_max': 8.0, 'inertia_power': 1.0}
+  pso:reset_optimal              {'c1': 2.0, 'c2': 1.0, 'inertia_min': 0.1, 'inertia_max': 1.0, 'inertia_power': 2.0, 'variant': 'reset'}
+  pso:reset_gap25                {'c1': 2.0, 'c2': 1.0, 'inertia_min': 0.001, 'inertia_max': 8.0, 'inertia_power': 1.0, 'variant': 'reset'}

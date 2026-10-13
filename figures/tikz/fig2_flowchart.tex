@@ -1,0 +1,82 @@
+% Figure 2 (flow chart) for the revision, 12 Oct 2026: Archive/figs/flow_diagram.tex with (1) the local-search box after the
+% stop test, (2) the rule pi in the evaluation (input, database key, simulation, outputs), (3) the stop condition as iterations
+% or simulation budget, (4) the output with the base-stock levels and the note on the enumeration of the rules.
+\begin{tikzpicture}[scale=0.85, every node/.style={transform shape},%
+	>=latex,              % Nice arrows; your taste may be different
+	start chain=going below,    % General flow is top-to-bottom
+	node distance=5mm and 40mm, % Global setup of box spacing
+	every join/.style={norm},   % Default linetype for connecting boxes
+	font = \small 
+	]
+
+	\linespread{1}% <--- locally defined vertical line spacing in nodes
+	
+	% ------------------------------------------------- 
+	% A few box styles 
+	% <on chain> *and* <on grid> reduce the need for manual relative
+	% positioning of nodes
+	\tikzset{
+		base/.style={draw, on chain, on grid, align=center, minimum height=4ex},
+		proc/.style={base, rounded corners, rectangle, text width=14em},
+		test/.style={base, diamond, aspect=2, text width=6em, inner sep=1pt},
+		% Connector line styles for different parts of the diagram
+		norm/.style={-latex, draw, thick},
+		reverse/.style={latex-, draw, thick},
+	}
+	% -------------------------------------------------
+	\node [proc, font=\bf] (pso-start) {Start};
+	% Use join to connect a node to the previous one 
+	\node [proc, join]  (pso1)    {Generate initial population};
+	\node [proc, join]  (pso2)    {Evaluate fitness for each particle};
+	\node [proc, join]  (pso3)    {Update best experience $B^p$ \\for each particle };
+	\node [proc, join]  (pso4)    {Update best global experience $B^g$  };
+	\node [proc, join]  (pso5)    {Update velocity $V(t+1)$ and position $\mathbf{X}(t+1)$\\for each particle };
+	\node [test, join]   (pso-test)    {Iterations or simulation budget exhausted?};
+	\node [proc, join, text width=16em]  (ls)    {Local search on the best design $B^g$:\\ remove or add one skill, remove one technician};
+	\node [proc, join, font=\bf] (pso-stop)			 {Stop};
+	\node[right, yshift=-3pt] at (pso-test.south) {yes};
+	\node[above=of pso-start, yshift=-1.5em]  {\bf BPSO procedure};
+	\draw[norm] (pso-test.west) node[below]{no} -- ++(-1.3,0) |- ([yshift=2.0ex]pso2.north);
+	
+	\path (pso-stop) ++(0,-1.1) node[circle, draw, minimum size=2ex, inner sep = 0, thick]  (pso-out) % {\raisebox{-5pt}{\hskip0.5pt\textbullet}} 
+	{} ++(0,0) node[circle, draw, fill, inner sep = 1.5pt] at (pso-out) {}
+		++(0,0) node[right, xshift = 1ex, align=left] {{\bf output:} optimized skill assignment, base-stock levels and cost\\ {\footnotesize repeated for each rule $\pi\in\Pi$; the cheapest combination is kept}} ;
+	\draw[norm] (pso-stop)  to (pso-out);
+	
+	
+	
+	%\node[on chain, circle, draw, right=of ga0, minimum size=1.5ex, inner sep = 0, thick] (ev0) {\raisebox{-5pt}{\hskip0.5pt\textbullet}} 
+	\node[on chain, circle, draw, right=of pso1, xshift =1em, minimum size=1.5ex, thick] (ev0) {} ++(0,0) node[circle, draw, fill, inner sep = 1.5pt] at (ev0) {}
+	++ (0,0) node[right, xshift = 1ex] at (ev0) {{\bf input:} $\mathbf{X}(t)$, rule $\pi$}; %Skill assignment};
+	
+	\node [proc, join, text width=9em]  (ev1)    {Find the distributions of $(\mathbf{X}(t),\pi)$ in the database};
+	\node [test, join]   (ev2)    {Distributions found?};
+	\node[right, yshift=-3pt] at (ev2.south) {yes};
+	\node[proc, text width=18em, xshift=5em] (ev3) {Optimize the inventory levels $S_i$};
+	\draw[norm] (ev2.south) to (ev2.south |- ev3.north);
+	
+	\node[on chain, on grid, right=of ev1, cylinder, shape border rotate = 90, aspect=0.25, draw, font=\Large\bf ] (db) {DB};
+	\node [proc, right=of ev2, join=by reverse, text width=6em]  (sm) {Run the \\simulation \\under $\pi$};
+	\draw[norm] (sm.south) to (sm.south |- ev3.north);
+	\draw[norm] (ev2.east) node[above]{no} to (sm);
+	
+	\draw[norm] ([yshift=0.6ex]ev1.east)  to ([yshift=0.6ex]db.west);
+	\draw[reverse] ([yshift=-0.6ex]ev1.east)  to ([yshift=-0.6ex]db.west);
+	
+	\path (ev3) ++(0,-1.1) node[circle, draw, minimum size=2ex, inner sep = 0, thick]  (out)  %{\raisebox{-5pt}{\hskip0.5pt\textbullet}} 
+	{} ++(0,0) node[circle, draw, fill, inner sep = 1.5pt] at (out) {}
+	++(0,0) node[right, xshift = 1ex] {{\bf output:} $\mathbb{EHB}_i \left(\mathbf{X}(t);\pi \right)$} ;
+	\draw[norm] (ev3)  to (out);
+	
+	\node[proc,  right=of pso3,  minimum width=23em, minimum height=34em, xshift=14.5em, yshift=-7em, dashed] (md) {}; 
+	\node[above=of md, yshift=-1.2em, align=left]{\bf Simulation based evaluation of $\mathbb{EHB}_i \left(\mathbf{X}(t);\pi \right)$};
+	
+%	\draw[-latex] ([yshift=0.6ex]ga1.east) to node[above]{\small  $\mathbf{X}$ } ([yshift=0.6ex]ga1.east -| md.west);
+%	\draw[latex-] ([yshift=-0.6ex]ga1.east) to node[below]{\small $\mathbb{EHB}_i \left(\mathbf{X} \right)$} ([yshift=-0.6ex]ga1.east -| md.west);
+	
+	\draw[norm] ([yshift=1.0ex]pso2.east)  to node[above]{\small $\mathbf{X}(t)$} ([yshift=1.0ex]pso2.east -| md.west);
+	\draw[reverse] ([yshift=-1.0ex]pso2.east) to node[below]{\small $\mathbb{EHB}_i \left(\mathbf{X}(t);\pi \right)$} ([yshift=-1.0ex]pso2.east -| md.west);
+	\draw[norm] ([yshift=1.0ex]ls.east)  to node[above]{\small neighbors $\mathbf{X}'$} ([yshift=1.0ex]ls.east -| md.west);
+	\draw[reverse] ([yshift=-1.0ex]ls.east) to node[below]{\small $\mathbb{EHB}_i \left(\mathbf{X}';\pi \right)$} ([yshift=-1.0ex]ls.east -| md.west);
+	
+\end{tikzpicture}

@@ -1,0 +1,25 @@
+\begin{table}[ht!]
+\centering
+\caption{Tuning on the small instances: for each value of a parameter, the mean over the settings of the grid with that value of the relative gap to the optimum after one quarter of the feasible designs has been simulated (gap$_{25}$) and the share of runs that end at the optimum (opt.).}
+\label{tab:tunig_results_means}
+\small
+\textit{Proposed BPSO (increasing inertia): 72 settings, 1,106 instances, 158,880 runs}\\[2pt]
+\begin{tabular}{lrr lrr lrr lrr }
+\toprule
+$c_1$ & gap$_{25}$ & opt. & $c_2$ & gap$_{25}$ & opt. & $\omega_{\min}$ & gap$_{25}$ & opt. & $\omega_{\max}$ & gap$_{25}$ & opt. \\ \midrule
+0.5 & 0.50\% & 90.0\% & 1 & 0.45\% & 90.1\% & 0.01 & 0.45\% & 90.2\% & 1 & 0.46\% & 90.5\% \\
+1 & 0.46\% & 91.2\% & 2 & 0.45\% & 90.1\% & 0.1 & 0.44\% & 89.9\% & 1.5 & 0.45\% & 90.6\% \\
+2 & 0.39\% & 88.9\% & 3 & 0.45\% & 90.1\% &  & &  & 2 & 0.43\% & 89.0\% \\
+ & &  & 4 & 0.45\% & 89.9\% &  & &  &  & &  \\
+\bottomrule
+\end{tabular}\\[6pt]
+\textit{Original BPSO (decreasing inertia): 54 settings, 1,107 instances, 119,111 runs}\\[2pt]
+\begin{tabular}{lrr lrr lrr lrr }
+\toprule
+$c_1$ & gap$_{25}$ & opt. & $c_2$ & gap$_{25}$ & opt. & $\omega_{\min}$ & gap$_{25}$ & opt. & $\omega_{\max}$ & gap$_{25}$ & opt. \\ \midrule
+0.5 & 0.34\% & 89.6\% & 0.5 & 0.35\% & 89.3\% & 0.01 & 0.29\% & 90.4\% & 0.3 & 0.32\% & 90.4\% \\
+1 & 0.29\% & 90.8\% & 1 & 0.29\% & 91.0\% & 0.1 & 0.28\% & 90.1\% & 0.5 & 0.30\% & 90.4\% \\
+2 & 0.22\% & 90.3\% & 2 & 0.22\% & 90.4\% &  & &  & 0.9 & 0.24\% & 89.8\% \\
+\bottomrule
+\end{tabular}\\[6pt]
+\end{table}

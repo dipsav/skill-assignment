@@ -1,0 +1,24 @@
+\begin{table}[!htb]
+\centering
+\caption{Stability and cost increase under surges of several SKUs at once: all SKUs, the SKUs in the skill set of the busiest technician, and those of a technician drawn at random, for the design optimized for FCFS and the designs optimized for the $\mu$ and $h\times\mu$ rules, each under its own rule (128 instances, 35 replications each). Stable: share of the instances in which the shop remains stable; cost increase: median over the stable instances, relative to the nominal total cost, with the base-stock levels fixed and re-optimized; last column: instances stable under both designs in which the $\mu$ design's increase is below the FCFS design's.}
+\label{tab:multi_surges}
+\small
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}lc rrr rrr rrr c@{}}
+\toprule
+& & \multicolumn{3}{c}{Stable (\%)} & \multicolumn{3}{c}{Increase, stock fixed (\%)} & \multicolumn{3}{c}{Increase, stock re-opt. (\%)} & $\mu$ below \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}\cmidrule(lr){9-11}
+Surged SKUs & $\delta$ & FCFS & $\mu$ & $h\times\mu$ & FCFS & $\mu$ & $h\times\mu$ & FCFS & $\mu$ & $h\times\mu$ & FCFS \\
+\midrule
+All SKUs & 5\% & 97.7 & 95.3 & 98.4 & 3.3 & 2.0 & 2.4 & 2.6 & 1.2 & 1.4 & 87 of 121 \\
+ & 10\% & 91.4 & 84.4 & 84.4 & 11.3 & 7.2 & 8.3 & 5.6 & 3.4 & 3.0 & 66 of 103 \\
+ & 20\% & 68.8 & 63.3 & 59.4 & 122.3 & 79.1 & 66.7 & 20.5 & 8.9 & 8.6 & 50 of 67 \\
+\midrule
+Skill set of the busiest technician & 10\% & 95.3 & 92.2 & 93.0 & 3.6 & 2.5 & 2.5 & 2.2 & 1.1 & 1.3 & 73 of 115 \\
+ & 25\% & 74.2 & 72.7 & 69.5 & 27.8 & 20.3 & 27.1 & 7.4 & 4.1 & 3.8 & 51 of 77 \\
+\midrule
+Skill set of a random technician & 10\% & 99.2 & 98.4 & 96.9 & 2.0 & 1.2 & 1.7 & 1.4 & 0.8 & 0.9 & 83 of 126 \\
+ & 25\% & 92.2 & 83.6 & 78.9 & 11.5 & 7.0 & 10.4 & 5.2 & 2.4 & 2.8 & 66 of 103 \\
+\bottomrule
+\end{tabular}
+\end{table}

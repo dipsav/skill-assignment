@@ -1,0 +1,62 @@
+{
+ "pso_orig:original_optimal": {
+  "c1": 0.5,
+  "c2": 2.0,
+  "inertia_min": 0.1,
+  "inertia_max": 0.3,
+  "inertia_power": 1.0,
+  "variant": "original"
+ },
+ "pso_orig:original_gap25": {
+  "c1": 2.0,
+  "c2": 2.0,
+  "inertia_min": 0.01,
+  "inertia_max": 0.9,
+  "inertia_power": 1.0,
+  "variant": "original"
+ },
+ "pso:proposed_optimal": {
+  "c1": 1.0,
+  "c2": 1.0,
+  "inertia_min": 0.01,
+  "inertia_max": 1.0,
+  "inertia_power": 1.0
+ },
+ "pso:proposed_gap25": {
+  "c1": 2.0,
+  "c2": 4.0,
+  "inertia_min": 0.1,
+  "inertia_max": 2.0,
+  "inertia_power": 1.0
+ },
+ "pso:proposed_ext_optimal": {
+  "c1": 1.0,
+  "c2": 3.0,
+  "inertia_min": 0.001,
+  "inertia_max": 1.0,
+  "inertia_power": 1.0
+ },
+ "pso:proposed_ext_gap25": {
+  "c1": 2.0,
+  "c2": 3.0,
+  "inertia_min": 0.001,
+  "inertia_max": 8.0,
+  "inertia_power": 1.0
+ },
+ "pso:reset_optimal": {
+  "c1": 2.0,
+  "c2": 1.0,
+  "inertia_min": 0.1,
+  "inertia_max": 1.0,
+  "inertia_power": 2.0,
+  "variant": "reset"
+ },
+ "pso:reset_gap25": {
+  "c1": 2.0,
+  "c2": 1.0,
+  "inertia_min": 0.001,
+  "inertia_max": 8.0,
+  "inertia_power": 1.0,
+  "variant": "reset"
+ }
+}

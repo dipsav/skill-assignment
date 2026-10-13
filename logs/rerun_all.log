@@ -1,0 +1,29 @@
+nohup: ignoring input
+PSO: 128 cases requested, 27 to run -> ../PSO_results_rerun | parameters {'generation': 25, 'population': 100, 'c1': 1.0, 'c2': 3.0, 'inertia_min': 0.01, 'inertia_max': 1.5, 'speedRange': 0.0} | 20 in parallel
+case   89: final design feasible True | total 580,600 (independent seeds) | full cross-training 1,014,269 | saving 42.8% | old recorded 563,793 | 81.1 min
+case   83: final design feasible True | total 725,227 (independent seeds) | full cross-training 1,148,287 | saving 36.8% | old recorded 734,860 | 82.6 min
+case   48: final design feasible True | total 82,387 (independent seeds) | full cross-training 114,116 | saving 27.8% | old recorded 82,083 | 85.8 min
+case   56: final design feasible True | total 660,735 (independent seeds) | full cross-training 1,037,947 | saving 36.3% | old recorded 631,402 | 86.0 min
+case   91: final design feasible True | total 540,568 (independent seeds) | full cross-training 579,664 | saving 6.7% | old recorded 541,956 | 87.3 min
+case   65: final design feasible True | total 77,829 (independent seeds) | full cross-training 109,627 | saving 29.0% | old recorded 77,144 | 87.8 min
+case   60: final design feasible True | total 542,274 (independent seeds) | full cross-training 587,741 | saving 7.7% | old recorded 544,675 | 92.3 min
+case   52: final design feasible True | total 92,036 (independent seeds) | full cross-training 130,813 | saving 29.6% | old recorded 92,830 | 93.9 min
+case   75: final design feasible True | total 90,519 (independent seeds) | full cross-training 126,261 | saving 28.3% | old recorded 89,499 | 94.8 min
+case   40: final design feasible True | total 448,412 (independent seeds) | full cross-training 571,577 | saving 21.5% | old recorded 446,627 | 94.8 min
+case   81: final design feasible True | total 449,442 (independent seeds) | full cross-training 564,655 | saving 20.4% | old recorded 446,478 | 95.4 min
+case   25: final design feasible True | total 80,639 (independent seeds) | full cross-training 119,093 | saving 32.3% | old recorded 81,190 | 96.9 min
+case   67: final design feasible True | total 96,037 (independent seeds) | full cross-training 112,242 | saving 14.4% | old recorded 93,548 | 99.7 min
+case   21: final design feasible True | total 67,088 (independent seeds) | full cross-training 100,930 | saving 33.5% | old recorded 65,955 | 100.3 min
+case   73: final design feasible True | total 52,564 (independent seeds) | full cross-training 60,529 | saving 13.2% | old recorded 52,853 | 106.0 min
+case   99: final design feasible True | total 88,470 (independent seeds) | full cross-training 97,998 | saving 9.7% | old recorded 85,651 | 106.3 min
+case   64: final design feasible True | total 74,251 (independent seeds) | full cross-training 79,348 | saving 6.4% | old recorded 73,971 | 109.4 min
+case   36: final design feasible True | total 72,065 (independent seeds) | full cross-training 75,680 | saving 4.8% | old recorded 71,760 | 111.5 min
+case    9: final design feasible True | total 71,496 (independent seeds) | full cross-training 81,549 | saving 12.3% | old recorded 71,406 | 114.0 min
+case  126: final design feasible True | total 1,007,088 (independent seeds) | full cross-training 2,012,147 | saving 49.9% | old recorded 1,115,932 | 116.3 min
+case  123: final design feasible True | total 687,547 (independent seeds) | full cross-training 1,028,151 | saving 33.1% | old recorded 691,046 | 50.8 min
+case  111: final design feasible True | total 542,374 (independent seeds) | full cross-training 637,072 | saving 14.9% | old recorded 542,755 | 57.5 min
+case  127: final design feasible True | total 703,226 (independent seeds) | full cross-training 1,052,316 | saving 33.2% | old recorded 624,765 | 51.2 min
+case  119: final design feasible True | total 97,784 (independent seeds) | full cross-training 167,325 | saving 41.6% | old recorded 97,039 | 67.7 min
+case  115: final design feasible True | total 91,309 (independent seeds) | full cross-training 119,445 | saving 23.6% | old recorded 90,630 | 70.7 min
+case  107: final design feasible True | total 469,143 (independent seeds) | full cross-training 581,887 | saving 19.4% | old recorded 468,819 | 76.2 min
+case  103: final design feasible True | total 64,728 (independent seeds) | full cross-training 67,043 | saving 3.5% | old recorded 64,714 | 84.9 min

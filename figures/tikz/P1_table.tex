@@ -1,0 +1,23 @@
+\begin{table}[!htb]
+\centering
+\caption{Preemptive and non-preemptive $\mu$ rule: total cost with the base-stock levels re-optimized, relative to the design optimized for FCFS and operated under FCFS, median over the 128 instances, for exponential, Erlang-4 (CV 0.5) and lognormal (CV 2) repair times; in brackets, the share of instances that are stable in simulation when it is below 100\%.}
+\label{tab:preemption}
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Configuration & Exponential & Erlang-4 & Lognormal, CV 2 \\
+\midrule
+Full cross-training, FCFS & 1.45 & 1.45 & 1.39 \\
+Full cross-training, $\mu$ rule, preemptive & 1.27 & 1.31 & 1.11 \\
+Full cross-training, $\mu$ rule, non-preemptive & 1.28 & 1.35 & 1.13 \\
+\midrule
+Design for FCFS, FCFS & 1.00 & 1.00 & 1.00 \\
+Design for FCFS, $\mu$ rule, preemptive & 1.02 & 1.02 & 1.01 (99\%) \\
+Design for FCFS, $\mu$ rule, non-preemptive & 0.99 & 1.00 & 0.99 \\
+\midrule
+Design for preemptive $\mu$, preemptive & 0.94 & 0.95 & 0.88 \\
+Design for preemptive $\mu$, run non-preemptively & 1.10 (98\%) & 1.06 & 1.32 (87\%) \\
+Design for non-preemptive $\mu$, non-preemptive & 0.99 & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

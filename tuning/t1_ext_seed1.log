@@ -1,0 +1,242 @@
+1112 instances (>= 100 feasible designs) x settings [72, 144] x 1 seeds = 240192 runs, 20 workers
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+2000/240192 runs, 0.9 min, about 107 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+4000/240192 runs, 1.7 min, about 99 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+6000/240192 runs, 2.4 min, about 95 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+8000/240192 runs, 3.2 min, about 92 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+10000/240192 runs, 3.9 min, about 90 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+12000/240192 runs, 4.6 min, about 88 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+14000/240192 runs, 5.4 min, about 87 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+16000/240192 runs, 6.2 min, about 87 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+18000/240192 runs, 7.0 min, about 86 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+20000/240192 runs, 7.7 min, about 85 min left
+22000/240192 runs, 8.5 min, about 84 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+24000/240192 runs, 9.2 min, about 83 min left
+26000/240192 runs, 9.9 min, about 82 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+28000/240192 runs, 10.7 min, about 81 min left
+30000/240192 runs, 11.5 min, about 81 min left
+32000/240192 runs, 12.2 min, about 80 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+34000/240192 runs, 13.0 min, about 79 min left
+36000/240192 runs, 13.7 min, about 78 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+38000/240192 runs, 14.4 min, about 77 min left
+40000/240192 runs, 15.2 min, about 76 min left
+42000/240192 runs, 16.0 min, about 75 min left
+44000/240192 runs, 16.7 min, about 75 min left
+46000/240192 runs, 17.5 min, about 74 min left
+48000/240192 runs, 18.2 min, about 73 min left
+50000/240192 runs, 18.9 min, about 72 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+52000/240192 runs, 19.6 min, about 71 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+54000/240192 runs, 20.3 min, about 70 min left
+56000/240192 runs, 21.1 min, about 70 min left
+58000/240192 runs, 21.8 min, about 69 min left
+60000/240192 runs, 22.6 min, about 68 min left
+62000/240192 runs, 23.3 min, about 67 min left
+64000/240192 runs, 24.0 min, about 66 min left
+66000/240192 runs, 24.7 min, about 65 min left
+68000/240192 runs, 25.5 min, about 65 min left
+70000/240192 runs, 26.3 min, about 64 min left
+72000/240192 runs, 27.0 min, about 63 min left
+74000/240192 runs, 27.7 min, about 62 min left
+76000/240192 runs, 28.5 min, about 61 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:86: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:90: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+78000/240192 runs, 29.1 min, about 61 min left
+80000/240192 runs, 29.8 min, about 60 min left
+82000/240192 runs, 30.6 min, about 59 min left
+84000/240192 runs, 31.3 min, about 58 min left
+86000/240192 runs, 32.0 min, about 57 min left
+88000/240192 runs, 32.6 min, about 56 min left
+90000/240192 runs, 33.3 min, about 56 min left
+92000/240192 runs, 34.0 min, about 55 min left
+94000/240192 runs, 34.7 min, about 54 min left
+96000/240192 runs, 35.4 min, about 53 min left
+98000/240192 runs, 36.1 min, about 52 min left
+100000/240192 runs, 36.9 min, about 52 min left
+102000/240192 runs, 37.5 min, about 51 min left
+104000/240192 runs, 38.2 min, about 50 min left
+106000/240192 runs, 38.8 min, about 49 min left
+108000/240192 runs, 39.5 min, about 48 min left
+110000/240192 runs, 40.3 min, about 48 min left
+112000/240192 runs, 40.9 min, about 47 min left
+114000/240192 runs, 41.6 min, about 46 min left
+116000/240192 runs, 42.3 min, about 45 min left
+118000/240192 runs, 42.9 min, about 44 min left
+120000/240192 runs, 43.6 min, about 44 min left
+122000/240192 runs, 44.4 min, about 43 min left
+124000/240192 runs, 45.0 min, about 42 min left
+126000/240192 runs, 45.8 min, about 41 min left
+128000/240192 runs, 46.4 min, about 41 min left
+130000/240192 runs, 47.1 min, about 40 min left
+132000/240192 runs, 47.7 min, about 39 min left
+134000/240192 runs, 48.4 min, about 38 min left
+136000/240192 runs, 49.2 min, about 38 min left
+138000/240192 runs, 49.9 min, about 37 min left
+140000/240192 runs, 50.6 min, about 36 min left
+142000/240192 runs, 51.3 min, about 35 min left
+144000/240192 runs, 51.9 min, about 35 min left
+146000/240192 runs, 52.6 min, about 34 min left
+148000/240192 runs, 53.3 min, about 33 min left
+150000/240192 runs, 54.1 min, about 33 min left
+152000/240192 runs, 54.7 min, about 32 min left
+154000/240192 runs, 55.4 min, about 31 min left
+156000/240192 runs, 56.1 min, about 30 min left
+158000/240192 runs, 56.7 min, about 30 min left
+160000/240192 runs, 57.4 min, about 29 min left
+162000/240192 runs, 58.1 min, about 28 min left
+164000/240192 runs, 58.8 min, about 27 min left
+166000/240192 runs, 59.5 min, about 27 min left
+168000/240192 runs, 60.1 min, about 26 min left
+170000/240192 runs, 60.8 min, about 25 min left
+172000/240192 runs, 61.4 min, about 24 min left
+174000/240192 runs, 62.1 min, about 24 min left
+176000/240192 runs, 62.8 min, about 23 min left
+178000/240192 runs, 63.5 min, about 22 min left
+180000/240192 runs, 64.2 min, about 21 min left
+182000/240192 runs, 64.8 min, about 21 min left
+184000/240192 runs, 65.4 min, about 20 min left
+186000/240192 runs, 66.0 min, about 19 min left
+188000/240192 runs, 66.8 min, about 19 min left
+190000/240192 runs, 67.5 min, about 18 min left
+192000/240192 runs, 68.1 min, about 17 min left
+194000/240192 runs, 68.8 min, about 16 min left
+196000/240192 runs, 69.4 min, about 16 min left
+198000/240192 runs, 70.1 min, about 15 min left
+200000/240192 runs, 70.7 min, about 14 min left
+202000/240192 runs, 71.4 min, about 14 min left
+204000/240192 runs, 72.1 min, about 13 min left
+206000/240192 runs, 72.8 min, about 12 min left
+208000/240192 runs, 73.4 min, about 11 min left
+210000/240192 runs, 74.1 min, about 11 min left
+212000/240192 runs, 74.7 min, about 10 min left
+214000/240192 runs, 75.3 min, about 9 min left
+216000/240192 runs, 76.1 min, about 9 min left
+218000/240192 runs, 76.8 min, about 8 min left
+220000/240192 runs, 77.5 min, about 7 min left
+222000/240192 runs, 78.1 min, about 6 min left
+224000/240192 runs, 78.7 min, about 6 min left
+226000/240192 runs, 79.3 min, about 5 min left
+228000/240192 runs, 80.0 min, about 4 min left
+230000/240192 runs, 80.8 min, about 4 min left
+232000/240192 runs, 81.4 min, about 3 min left
+234000/240192 runs, 82.1 min, about 2 min left
+236000/240192 runs, 82.7 min, about 1 min left
+238000/240192 runs, 83.3 min, about 1 min left
+240000/240192 runs, 83.9 min, about 0 min left
+240192/240192 runs, 83.9 min, about 0 min left

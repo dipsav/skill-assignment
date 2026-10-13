@@ -1,0 +1,21 @@
+\begin{table}[ht!]
+\centering
+\caption{Confirmation on eight instances of the test bed ($N\in\{10,20\}$, $M\in\{5,10\}$, $c\in\{0.01f,0.1f\}$; budget of 2,500 distinct simulated designs, two seeds): gap of the final design to the cheapest design found by any setting on the instance, mean and median over the 16 runs; number of skills of the final design.}
+\label{tab:tunig_results_max}
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Setting & Mean gap (\%) & Median gap (\%) & Skills \\
+\midrule
+Proposed, tuned: $c_1=2$, $c_2=4$, $\omega$ $0.1\to2.0$ (selected) & 1.1 & 0.2 & 37.3 \\
+Proposed: $c_1=2$, $c_2=3$, $\omega$ $0.001\to8$ & 1.5 & 1.1 & 38.9 \\
+Proposed with velocity re-drawn: $c_1=2$, $c_2=1$, $\omega$ $0.001\to8$ & 2.0 & 0.4 & 38.4 \\
+Proposed, proof of concept: $c_1=1$, $c_2=3$, $\omega$ $0.01\to1.5$ & 6.0 & 2.5 & 43.5 \\
+Proposed: $c_1=1$, $c_2=1$, $\omega$ $0.01\to1.0$ & 9.1 & 5.9 & 47.5 \\
+Proposed: $c_1=1$, $c_2=3$, $\omega$ $0.001\to1.0$ & 9.1 & 5.1 & 46.6 \\
+Proposed with velocity re-drawn: $c_1=2$, $c_2=1$, $\omega$ $0.1\to1.0$, $p=2$ & 7.2 & 4.3 & 45.3 \\
+Original, tuned: $c_1=c_2=2$, $\omega$ $0.9\to0.01$ & 4.5 & 1.7 & 43.2 \\
+Original: $c_1=0.5$, $c_2=2$, $\omega$ $0.3\to0.1$ & 11.2 & 8.1 & 46.7 \\
+\bottomrule
+\end{tabular}
+\end{table}

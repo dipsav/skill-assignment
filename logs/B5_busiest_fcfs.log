@@ -1,0 +1,18 @@
+128 designs x 1 multiplier(s) x 2 duration(s) x 3 rules = 768 tasks, 35 replications each, 20 workers -> ../surge_results_B5/fcfs_designs
+[50/768] case    8 hmu  gamma 1: done (5.2 s)
+[100/768] case   18 mu   gamma 1: done (2.9 s)
+[150/768] case   24 mu   gamma 1: done (4.8 s)
+[200/768] case   34 hmu  gamma 1: done (3.7 s)
+[250/768] case   42 mu   gamma 1: done (3.8 s)
+[300/768] case   49 hmu  gamma 1: done (5.1 s)
+[350/768] case   57 hmu  gamma 1: done (5.3 s)
+[400/768] case   67 hmu  gamma 1: done (3.4 s)
+[450/768] case   75 hmu  gamma 1: done (3.5 s)
+[500/768] case   85 hmu  gamma 1: done (2.9 s)
+[550/768] case   93 mu   gamma 1: done (2.8 s)
+[600/768] case  103 FCFS gamma 1: done (2.0 s)
+[650/768] case  110 hmu  gamma 1: done (3.7 s)
+[700/768] case  116 FCFS gamma 1: done (4.9 s)
+[750/768] case  124 hmu  gamma 1: done (5.1 s)
+[768/768] case  128 hmu  gamma 1: done (3.2 s)
+finished in 2.5 min

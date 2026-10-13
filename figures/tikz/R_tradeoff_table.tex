@@ -1,0 +1,23 @@
+\begin{table}[!htb]
+\centering
+\caption{Cost of the designs, rules and operational responses in normal operation and during a disruption, relative to the design optimized for FCFS operated under FCFS (medians over the 128 instances). Nominal: total cost under the nominal failure rates. Disrupted: total cost rate during a disruption of $10{,}000$ expected failures, including the extra backorder cost of the episode (a surge of all failure rates by $50\%$, and the absence of the busiest and of a randomly chosen technician).}
+\label{tab:tradeoff}
+\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+& Nominal & \multicolumn{3}{c}{Disrupted} \\ \cmidrule(lr){3-5}
+Design and operation & & Surge & Busiest absent & Random absent \\
+\midrule
+Design for FCFS, FCFS & 1.00 & 40.35 & 15.83 & 8.42 \\
+Design for FCFS, non-preemptive $\mu$ during the disruption & 1.00 & 19.53 & 18.04 & 8.09 \\
+Design for FCFS, $\mu$ rule during the disruption & 1.00 & 28.98 & 23.50 & 15.14 \\
+Design for FCFS, non-preemptive $\mu$ rule & 1.02 & 20.52 & 20.86 & 17.18 \\
+Design for $\mu$, $\mu$ rule & 0.93 & 11.62 & 17.06 & 27.56 \\
+Design for $\mu$ with every SKU covered twice, $\mu$ rule & 0.99 & 7.27 & 2.05 & 1.65 \\
+Design for non-preemptive $\mu$, non-preemptive $\mu$ rule & 0.99 & 13.38 & 10.39 & 7.03 \\
+Design for FCFS with every SKU covered twice, FCFS & 1.03 & 29.51 & 2.97 & 2.60 \\
+Full cross-training, FCFS & 1.45 & 20.46 & 2.21 & 2.31 \\
+Full cross-training, $\mu$ rule & 1.27 & 2.61 & 1.50 & 1.50 \\
+\bottomrule
+\end{tabular}
+\end{table}

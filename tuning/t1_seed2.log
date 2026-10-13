@@ -1,0 +1,96 @@
+1112 instances (>= 100 feasible designs) x settings [72, 54] x 1 seeds = 140112 runs, 4 workers
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:79: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:80: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:84: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:79: RuntimeWarning: invalid value encountered in scalar divide
+  "gap": lk.best / opt - 1, "optimal": bool(lk.best <= opt * (1 + 1e-9)), "distinct": len(lk.seen),
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:80: RuntimeWarning: invalid value encountered in scalar divide
+  "returned_gap": total / opt - 1}
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:84: RuntimeWarning: invalid value encountered in scalar divide
+  row[f"gap_at_{int(q * 100)}"] = (m[-1, 1] if len(m) else np.inf) / opt - 1
+2000/140112 runs, 5.0 min, about 348 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:79: RuntimeWarning: invalid value encountered in scalar divide
+  X, total, *_ = pso.optimizeSkillAssignmentPSO(t["M"], t["lam"], t["mu"], t["h"], t["b"], t["f"], t["c"],
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:80: RuntimeWarning: invalid value encountered in scalar divide
+  pso_params=params, seed=1_000_000 * seed + ti)
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:84: RuntimeWarning: invalid value encountered in scalar divide
+  "param_id": pi, "inertia_power": 1.0, **{k: v for k, v in GRIDS[variant][pi].items() if k != "variant"}, "seed": seed,
+4000/140112 runs, 9.8 min, about 334 min left
+6000/140112 runs, 13.8 min, about 308 min left
+8000/140112 runs, 17.9 min, about 295 min left
+10000/140112 runs, 21.8 min, about 284 min left
+12000/140112 runs, 25.8 min, about 276 min left
+14000/140112 runs, 29.7 min, about 268 min left
+16000/140112 runs, 33.8 min, about 263 min left
+18000/140112 runs, 37.9 min, about 257 min left
+20000/140112 runs, 41.7 min, about 251 min left
+22000/140112 runs, 45.8 min, about 246 min left
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:79: RuntimeWarning: invalid value encountered in scalar divide
+  X, total, *_ = pso.optimizeSkillAssignmentPSO(t["M"], t["lam"], t["mu"], t["h"], t["b"], t["f"], t["c"],
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:80: RuntimeWarning: invalid value encountered in scalar divide
+  pso_params=params, seed=1_000_000 * seed + ti)
+/home/jupyter-andrei/PSO Paper/fast_simulator/tuning/t1_tuning.py:84: RuntimeWarning: invalid value encountered in scalar divide
+  "param_id": pi, "inertia_power": 1.0, **{k: v for k, v in GRIDS[variant][pi].items() if k != "variant"}, "seed": seed,
+24000/140112 runs, 49.7 min, about 240 min left
+26000/140112 runs, 53.7 min, about 236 min left
+28000/140112 runs, 56.9 min, about 228 min left
+30000/140112 runs, 59.2 min, about 217 min left
+32000/140112 runs, 61.5 min, about 208 min left
+34000/140112 runs, 63.8 min, about 199 min left
+36000/140112 runs, 66.0 min, about 191 min left
+38000/140112 runs, 68.3 min, about 184 min left
+40000/140112 runs, 70.5 min, about 176 min left
+42000/140112 runs, 72.8 min, about 170 min left
+44000/140112 runs, 75.1 min, about 164 min left
+46000/140112 runs, 77.3 min, about 158 min left
+48000/140112 runs, 79.6 min, about 153 min left
+50000/140112 runs, 81.8 min, about 147 min left
+52000/140112 runs, 84.2 min, about 143 min left
+54000/140112 runs, 88.7 min, about 141 min left
+56000/140112 runs, 93.0 min, about 140 min left
+58000/140112 runs, 97.5 min, about 138 min left
+60000/140112 runs, 101.6 min, about 136 min left
+62000/140112 runs, 106.1 min, about 134 min left
+64000/140112 runs, 110.2 min, about 131 min left
+66000/140112 runs, 114.5 min, about 129 min left
+68000/140112 runs, 118.9 min, about 126 min left
+70000/140112 runs, 123.0 min, about 123 min left
+72000/140112 runs, 127.6 min, about 121 min left
+74000/140112 runs, 131.9 min, about 118 min left
+76000/140112 runs, 136.3 min, about 115 min left
+78000/140112 runs, 140.7 min, about 112 min left
+80000/140112 runs, 145.0 min, about 109 min left
+82000/140112 runs, 149.5 min, about 106 min left
+84000/140112 runs, 153.9 min, about 103 min left
+86000/140112 runs, 158.4 min, about 100 min left
+88000/140112 runs, 163.1 min, about 97 min left
+90000/140112 runs, 167.6 min, about 93 min left
+92000/140112 runs, 170.4 min, about 89 min left
+94000/140112 runs, 174.1 min, about 85 min left
+96000/140112 runs, 178.2 min, about 82 min left
+98000/140112 runs, 183.0 min, about 79 min left
+100000/140112 runs, 189.3 min, about 76 min left
+102000/140112 runs, 197.2 min, about 74 min left
+104000/140112 runs, 204.7 min, about 71 min left
+106000/140112 runs, 212.4 min, about 68 min left
+108000/140112 runs, 220.2 min, about 65 min left
+110000/140112 runs, 228.0 min, about 62 min left
+112000/140112 runs, 235.4 min, about 59 min left
+114000/140112 runs, 242.8 min, about 56 min left
+116000/140112 runs, 250.3 min, about 52 min left
+118000/140112 runs, 257.9 min, about 48 min left
+120000/140112 runs, 265.1 min, about 44 min left
+122000/140112 runs, 272.6 min, about 40 min left
+124000/140112 runs, 280.3 min, about 36 min left
+126000/140112 runs, 287.7 min, about 32 min left
+128000/140112 runs, 295.3 min, about 28 min left
+130000/140112 runs, 303.0 min, about 24 min left
+132000/140112 runs, 310.1 min, about 19 min left
+134000/140112 runs, 317.1 min, about 14 min left
+136000/140112 runs, 324.8 min, about 10 min left
+138000/140112 runs, 332.3 min, about 5 min left
+140000/140112 runs, 339.0 min, about 0 min left
+140112/140112 runs, 339.3 min, about 0 min left

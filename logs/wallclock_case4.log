@@ -1,0 +1,3 @@
+{'case': 4, 'method': 'bpso', 'workers': 20, 'designs': 2500, 'minutes': 4.909286673863729, 'total_cost': 1380095.277042823}
+{'case': 4, 'method': 'bpso', 'workers': 1, 'designs': 2500, 'minutes': 35.27702730894089, 'total_cost': 1345298.5124474263}
+{'case': 4, 'method': 'vns', 'workers': 1, 'designs': 2500, 'minutes': 31.611415274937947, 'total_cost': 1295034.3167562077}

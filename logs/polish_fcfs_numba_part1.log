@@ -1,0 +1,14 @@
+128 designs, 128 to polish -> ../PSO_results_rerun_polished | 20 workers | order paper
+[1/128] case   24: 145,442 -> 146,303 (+0.59%, independent seeds) | -2 +2 skills | 262 designs | 15.0 min
+[2/128] case   33: 142,104 -> 142,277 (+0.12%, independent seeds) | -3 +3 skills | 501 designs | 31.1 min
+[3/128] case  104: 129,290 -> 128,944 (-0.27%, independent seeds) | -2 +4 skills | 551 designs | 32.2 min
+[4/128] case   12: 141,298 -> 140,487 (-0.57%, independent seeds) | -7 +1 skills | 697 designs | 40.7 min
+[5/128] case   68: 153,835 -> 152,862 (-0.63%, independent seeds) | -7 +1 skills | 964 designs | 58.4 min
+[6/128] case   61: 130,000 -> 128,630 (-1.05%, independent seeds) | -10 +6 skills | 1460 designs | 84.1 min
+[7/128] case  100: 150,584 -> 147,256 (-2.21%, independent seeds) | -8 +5 skills | 1622 designs | 94.9 min
+[8/128] case  112: 1,093,125 -> 1,069,033 (-2.20%, independent seeds) | -29 +2 skills | 1712 designs | 96.7 min
+[9/128] case   74: 128,997 -> 127,877 (-0.87%, independent seeds) | -20 +6 skills | 1695 designs | 98.4 min
+[10/128] case  108: 1,100,507 -> 1,069,247 (-2.84%, independent seeds) | -39 +6 skills | 1860 designs | 107.5 min
+[11/128] case   57: 1,097,877 -> 1,078,019 (-1.81%, independent seeds) | -26 +2 skills | 1186 designs | 68.9 min
+[12/128] case  128: 1,591,059 -> 1,252,732 (-21.26%, independent seeds) | -36 +2 skills | 2101 designs | 118.7 min
+[13/128] case   37: 1,089,508 -> 1,061,313 (-2.59%, independent seeds) | -38 +6 skills | 2118 designs | 120.1 min
